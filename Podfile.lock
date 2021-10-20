@@ -1,0 +1,16 @@
+PODS:
+  - PoilabsAnalysis (3.8.0)
+
+DEPENDENCIES:
+  - PoilabsAnalysis (~> 3.8.0)
+
+SPEC REPOS:
+  trunk:
+    - PoilabsAnalysis
+
+SPEC CHECKSUMS:
+  PoilabsAnalysis: 5b5e4d33328d701ff9fdacb5c3e4b89f094021de
+
+PODFILE CHECKSUM: 7656e2d0b6164fd5198c529748b1cac376cd62b3
+
+COCOAPODS: 1.10.1
