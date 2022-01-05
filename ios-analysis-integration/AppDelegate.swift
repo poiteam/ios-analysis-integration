@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PLConfigManager.sharedInstance().getReadyForTracking(completionHandler: { error in
             if error != nil {
                 if let anError = error {
-                    print("Error Desc \(anError)")
+                    print("Error Desc \(anError.description)")
                 }
             } else {
                 print("Error Nil")

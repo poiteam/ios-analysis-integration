@@ -6,5 +6,5 @@ target 'ios-analysis-integration' do
   use_frameworks!
 
   # Pods for ios-analysis-integration
-	pod 'PoilabsAnalysis', '~> 3.8.0'
+	pod 'PoilabsAnalysis', '~> 3.8.2'
 end
