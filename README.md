@@ -1,17 +1,24 @@
-# PoilabsAnalysis
+# PoilabsAnalysis iOS Integration
 
-[![Version](https://img.shields.io/cocoapods/v/PoilabsAnalysis.svg?style=flat)](https://cocoapods.org/pods/PoilabsNavigation)
-[![Platform](https://img.shields.io/cocoapods/p/PoilabsAnalysis.svg?style=flat)](https://cocoapods.org/pods/PoilabsNavigation)
+Sample iOS app that integrates **PoilabsAnalysis** with Swift Package Manager.
+
+![Version](https://img.shields.io/github/v/tag/poiteam/ios-analysis-pod?label=version)
+![Platform](https://img.shields.io/badge/platform-iOS%2012%2B-lightgrey)
 
 ## INSTALLATION
 
-### CocoaPods
+PoilabsAnalysis is distributed with Swift Package Manager. CocoaPods is no longer supported.
 
-To integrate PoilabsNavigation into your Xcode project using CocoaPods, specify it in your `Podfile`:
+### Swift Package Manager
 
-```ruby
-pod 'PoilabsAnalysis'
-```
+1. In Xcode, select **File > Add Package Dependencies...**
+2. Enter the repository URL: `https://github.com/poiteam/ios-analysis-pod.git`
+3. Choose **Exact Version** `3.8.29` and add the **PoilabsAnalysis** product to your app target.
+
+### Migrating from CocoaPods
+
+Remove `pod 'PoilabsAnalysis'` from your `Podfile`, run `pod install` (or `pod deintegrate` if no other pods remain), then add the package as described above.
+
 ### Manually
 You can add PoilabsAnalysis.xcframework file to your "Frameworks, Libaries, and Embedded Content" in your Project’s General Tab.
 ## PRE-REQUIREMENTS

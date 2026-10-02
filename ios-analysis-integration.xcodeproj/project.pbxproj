@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A4D1C477A60281A13F2AADD /* Pods_ios_analysis_integration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75227A674FEDEDB8C9AC170 /* Pods_ios_analysis_integration.framework */; };
+		37A290F6A782318158524ED0 /* PoilabsAnalysis in Frameworks */ = {isa = PBXBuildFile; productRef = E871EB2D8A21C2997906E6DB /* PoilabsAnalysis */; };
 		C3E6D74F25CBDBF9006877C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6D74E25CBDBF9006877C9 /* AppDelegate.swift */; };
 		C3E6D75325CBDBF9006877C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6D75225CBDBF9006877C9 /* ViewController.swift */; };
 		C3E6D75625CBDBF9006877C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E6D75425CBDBF9006877C9 /* Main.storyboard */; };
@@ -29,7 +29,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D4CA6530E65650DF959A707 /* Pods-ios-analysis-integration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-analysis-integration.debug.xcconfig"; path = "Target Support Files/Pods-ios-analysis-integration/Pods-ios-analysis-integration.debug.xcconfig"; sourceTree = "<group>"; };
 		C3E6D74B25CBDBF9006877C9 /* ios-analysis-integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-analysis-integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E6D74E25CBDBF9006877C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3E6D75225CBDBF9006877C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,8 +36,6 @@
 		C3E6D75725CBDBFA006877C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E6D75A25CBDBFA006877C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3E6D75C25CBDBFA006877C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2CB7927A4217D292B3AFBC5 /* Pods-ios-analysis-integration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-analysis-integration.release.xcconfig"; path = "Target Support Files/Pods-ios-analysis-integration/Pods-ios-analysis-integration.release.xcconfig"; sourceTree = "<group>"; };
-		F75227A674FEDEDB8C9AC170 /* Pods_ios_analysis_integration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_analysis_integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A4D1C477A60281A13F2AADD /* Pods_ios_analysis_integration.framework in Frameworks */,
+				37A290F6A782318158524ED0 /* PoilabsAnalysis in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,8 +53,6 @@
 		34BD28EEAC1F28AC4A3C4283 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0D4CA6530E65650DF959A707 /* Pods-ios-analysis-integration.debug.xcconfig */,
-				D2CB7927A4217D292B3AFBC5 /* Pods-ios-analysis-integration.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -67,7 +62,6 @@
 			children = (
 				C3E6D74D25CBDBF9006877C9 /* ios-analysis-integration */,
 				C3E6D74C25CBDBF9006877C9 /* Products */,
-				C3E6D76925CBDE71006877C9 /* Frameworks */,
 				34BD28EEAC1F28AC4A3C4283 /* Pods */,
 			);
 			sourceTree = "<group>";
@@ -93,14 +87,6 @@
 			path = "ios-analysis-integration";
 			sourceTree = "<group>";
 		};
-		C3E6D76925CBDE71006877C9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F75227A674FEDEDB8C9AC170 /* Pods_ios_analysis_integration.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,18 +94,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3E6D75F25CBDBFA006877C9 /* Build configuration list for PBXNativeTarget "ios-analysis-integration" */;
 			buildPhases = (
-				EC145E81BDE98C81F04BA5E1 /* [CP] Check Pods Manifest.lock */,
 				C3E6D74725CBDBF9006877C9 /* Sources */,
 				C3E6D74825CBDBF9006877C9 /* Frameworks */,
 				C3E6D74925CBDBF9006877C9 /* Resources */,
 				C3E6D76C25CBDE71006877C9 /* Embed Frameworks */,
-				AD09A7A0D94139BB57225BCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "ios-analysis-integration";
+			packageProductDependencies = (
+				E871EB2D8A21C2997906E6DB /* PoilabsAnalysis */,
+			);
 			productName = "ios-analysis-integration";
 			productReference = C3E6D74B25CBDBF9006877C9 /* ios-analysis-integration.app */;
 			productType = "com.apple.product-type.application";
@@ -147,6 +134,9 @@
 				Base,
 			);
 			mainGroup = C3E6D74225CBDBF9006877C9;
+			packageReferences = (
+				282C501D4964FDC82DDBE579 /* XCRemoteSwiftPackageReference "ios-analysis-pod" */,
+			);
 			productRefGroup = C3E6D74C25CBDBF9006877C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -168,48 +158,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		AD09A7A0D94139BB57225BCE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-analysis-integration/Pods-ios-analysis-integration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-analysis-integration/Pods-ios-analysis-integration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-analysis-integration/Pods-ios-analysis-integration-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC145E81BDE98C81F04BA5E1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios-analysis-integration-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3E6D74725CBDBF9006877C9 /* Sources */ = {
@@ -294,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -349,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -361,7 +309,6 @@
 		};
 		C3E6D76025CBDBFA006877C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D4CA6530E65650DF959A707 /* Pods-ios-analysis-integration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -372,7 +319,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "ios-analysis-integration/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +333,6 @@
 		};
 		C3E6D76125CBDBFA006877C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2CB7927A4217D292B3AFBC5 /* Pods-ios-analysis-integration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -397,7 +343,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "ios-analysis-integration/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,6 +377,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		282C501D4964FDC82DDBE579 /* XCRemoteSwiftPackageReference "ios-analysis-pod" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/poiteam/ios-analysis-pod.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.8.29;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E871EB2D8A21C2997906E6DB /* PoilabsAnalysis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 282C501D4964FDC82DDBE579 /* XCRemoteSwiftPackageReference "ios-analysis-pod" */;
+			productName = PoilabsAnalysis;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3E6D74325CBDBF9006877C9 /* Project object */;
 }
